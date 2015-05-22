@@ -1,0 +1,83 @@
+.list{
+	background-image: url("../img/border.png");
+	background-repeat: no-repeat;
+	width: 1197px;
+	height: 425px;
+	position: relative;
+	margin: 0 auto;
+	border:2px solid #000;
+	margin-bottom: 54px;
+}
+
+.arr{
+	width: 76px;
+	height: 70px;
+	display: inline-block;
+	position: absolute;
+	top: 176px;
+	z-index: 5;
+}
+
+.leftarr{
+	background-image: url("../img/leftarr.png");
+	left: -32px;
+}
+
+.rightarr{
+	background-image: url("../img/rightarr.png");
+	right: -32px;
+}
+
+.roll{
+	position: relative;
+	width: 1197px;
+	height: 425px;
+	overflow: hidden;
+}
+
+.roll ul{
+	position: absolute;
+	overflow: hidden;
+}
+
+.listtit{
+	border:1px solid red;
+	margin-top: 36px;
+	margin-left: 43px;
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+}
+
+.roll ul h3{
+	text-align: center;
+}
+
+.roll li{
+	/*border:1px solid yellow;*/
+	/*background-color: pink;*/
+	width: 1197px;
+	height: 302px;
+	float: left;
+	position: relative;
+}
+
+.roll li img{
+	margin-left: 60px;
+	margin-top: 15px;
+	float: left;
+}
+
+.roll li p{
+	border:1px solid blue;
+	width: 630px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 30px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+	font-size: 20px;
+	line-height: 1.8;
+	font-family: "Microsoft YaHei";
+}
+
